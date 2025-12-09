@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import TopBar from './TopBar';
 
-const DashboardLayout = () => {
+const LayoutOfDashboard = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
     return (
@@ -36,4 +36,4 @@ const DashboardLayout = () => {
     );
 };
 
-export default DashboardLayout;
+export default LayoutOfDashboard;
