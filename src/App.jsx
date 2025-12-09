@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import DashboardLayout from "./components/LayoutOfDashboard.jsx";
+import Layout from "./components/Layout.jsx";
 import AnalyticsPage from './pages/AnalyticsPage.jsx';
 import DashboardPage from './pages/DashboardPage.jsx';
 import UsersPage from './pages/UsersPage.jsx';
@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Routes>
         {/* Main Dashboard Layout with Sidebar */}
-        <Route path="/" element={<DashboardLayout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Navigate to="/dashboard" replace />} />
           <Route path="dashboard" element={<DashboardPage />} />
           <Route path="analytics" element={<AnalyticsPage />} />
