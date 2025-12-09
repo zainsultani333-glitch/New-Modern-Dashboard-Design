@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components_temp/layout_temp.jsx';
-import AnalyticsPage from './pages/AnalyticsPage.jsx';
-import DashboardPage from './pages/DashboardPage.jsx';
-import UsersPage from './pages/UsersPage.jsx';
-import SettingsPage from './pages/SettingsPage.jsx';
-import CalendarPage from './pages/CalendarPage.jsx';
-import MessagesPage from './pages/MessagesPage.jsx';
-import ProjectsPage from './pages/ProjectsPage.jsx';
-import ReportsPage from './pages/ReportsPage.jsx';
+import AnalyticsPage from './Pages/AnalyticsPage.jsx';
+import DashboardPage from './Pages/DashboardPage.jsx';
+import UsersPage from './Pages/UsersPage.jsx';
+import SettingsPage from './Pages/SettingsPage.jsx';
+import CalendarPage from './Pages/CalendarPage.jsx';
+import MessagesPage from './Pages/MessagesPage.jsx';
+import ProjectsPage from './Pages/ProjectsPage.jsx';
+import ReportsPage from './Pages/ReportsPage.jsx';
 
 function App() {
   return (
